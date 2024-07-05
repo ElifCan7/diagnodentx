@@ -1,0 +1,27 @@
+.buttonProfile,
+.buttonxray,
+.buttonInfo,
+.buttonfetch,
+.buttonexit {
+  background-color: rgb(253, 158, 50);
+  width: 12rem;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.buttonfetch {
+  width: 15rem;
+}
+
+.buttonProfile:hover,
+.buttonxray:hover,
+.buttonInfo:hover,
+.buttonfetch:hover,
+.buttonexit {
+  background-color: rgb(252, 177, 91); /* Color change on hover */
+}
+.buttonexit {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  border: none;
+}

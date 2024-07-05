@@ -1,0 +1,14 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center; /* İçeriği ortalar */
+}
+
+.image-preview img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block; /* Ortalamak için */
+}

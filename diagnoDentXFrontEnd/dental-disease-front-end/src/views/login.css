@@ -1,0 +1,33 @@
+.login-container {
+  background-image: url("../assets/loginBackground.png");
+  position: relative;
+  min-height: 100vh;
+  background-size: cover; /* Ensures the background image covers the entire container */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.middle {
+  height: 25rem;
+  width: 30rem;
+  background: rgba(255, 255, 255, 0.349);
+}
+.buton {
+  background-color: #03a6d8;
+  border: none;
+}
+/* Styling for the buttons */
+.btn-primary,
+.btn-secondary {
+  margin: 10px;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  opacity: 0.9;
+}
